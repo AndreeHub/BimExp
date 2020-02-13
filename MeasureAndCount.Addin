@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>Revit command 1: Launch Measure And Count</Name>
+    <!-- Change this -->
+    <Assembly>MeasureAndCount.dll</Assembly>
+    <AddInId>
+      c763fd3a-5f78-400d-911d-d94319536403
+    </AddInId>
+    <FullClassName>MeasureAndCount.MeasureAndCount</FullClassName>
+    <Text>Measure And Count v0.2</Text>
+    <Description>Description text</Description>
+    <VendorId>Some1</VendorId>
+    <VendorDescription>@andrej.licanin@bimexperts.com</VendorDescription>
+    <VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+  </AddIn>
+</RevitAddIns>
